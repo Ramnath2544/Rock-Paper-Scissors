@@ -7,32 +7,46 @@
 </head>
 
 <body>
-  <p class="title">Rock Paper Scissors</p>
-  <button class="move-button js-rock-button">
-    <img src="images/rock-emoji.png" class="move-icon">
-  </button>
+  <div class="game-container">
+    <p class="title">Rock Paper Scissors</p>
 
-  <button class="move-button js-paper-button">
-    <img src="images/paper-emoji.png" class="move-icon">
-  </button>
+    <div class="buttons-container">
+      <button class="move-button js-rock-button" title="Press 'R' or click to play Rock">
+        <img src="images/rock-emoji.png" class="move-icon">
+      </button>
 
-  <button class="move-button js-scissors-button">
-    <img src="images/scissors-emoji.png" class="move-icon">
-  </button>
+      <button class="move-button js-paper-button" title="Press 'P' or click to play Paper">
+        <img src="images/paper-emoji.png" class="move-icon">
+      </button>
 
-  <p class="js-result result"></p>
-  <p class="js-moves"></p>
-  <p class="js-score score"></p>
+      <button class="move-button js-scissors-button" title="Press 'S' or click to play Scissors">
+        <img src="images/scissors-emoji.png" class="move-icon">
+      </button>
+    </div>
 
-  <button class="reset-score-button js-reset-score-button">
-    Reset Score
-  </button>
+    <p class="js-result result"></p>
+    <p class="js-moves"></p>
+    <p class="js-score score"></p>
 
-  <button class="auto-play-button js-auto-play-button">
-    Auto Play
-  </button>
+    <div class="controls-container">
+      <button class="reset-score-button js-reset-score-button">
+        Reset Score
+      </button>
 
-  <p class="js-reset-confirmation"></p>
+      <button class="auto-play-button js-auto-play-button">
+        Auto Play
+      </button>
+    </div>
+
+    <p class="js-reset-confirmation"></p>
+
+    <div class="instructions">
+      <p>💡 <strong>Keyboard Shortcuts:</strong></p>
+      <p>Press <kbd>R</kbd> for Rock, <kbd>P</kbd> for Paper, <kbd>S</kbd> for Scissors</p>
+      <p>Press <kbd>A</kbd> for Auto Play, <kbd>Backspace</kbd> to Reset</p>
+      <p>💾 <strong>Score Persistence:</strong> Your score is automatically saved and will persist between sessions!</p>
+    </div>
+  </div>
 
   <script src="Rock-Paper-Scissors Project.js"></script>
 </body>
