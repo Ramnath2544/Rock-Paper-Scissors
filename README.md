@@ -21,15 +21,13 @@ Press S for Scissors
 🚀 How to Play
 Click on the Rock, Paper, or Scissors icons to make your move.
 
-Alternatively, use the keyboard shortcuts:
+💡 Keyboard Shortcuts:
 
-R for Rock
+Press R for Rock, P for Paper, S for Scissors
 
-P for Paper
+Press A for Auto Play, Backspace to Reset
 
-S for Scissors
-
-The computer will randomly select its move.
+💾 Score Persistence: Your score is automatically saved and will persist between sessions!
 
 The result (Win/Loss/Tie) will be displayed, and the score will be updated accordingly.
 
