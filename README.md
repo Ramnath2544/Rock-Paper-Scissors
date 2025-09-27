@@ -1,5 +1,6 @@
 # Rock-Paper-Scissors
-🎮 Features
+
+## 🎮 Features
 
 🖥️ User-Friendly Interface: Simple and intuitive design for easy gameplay.
 
@@ -41,6 +42,13 @@ CSS3: For styling and animations.
 
 JavaScript (ES6): For game logic and interactivity.
 
-![Screenshot 2025-04-13 163522](https://github.com/user-attachments/assets/4f531a22-e088-4cba-bce3-c258d42a6a08)
+---
+
+## Demo
+
+
+
+
+
 
 ![Screenshot 2025-04-13 171241](https://github.com/user-attachments/assets/55708817-0a01-40a0-84e7-eb23b3ec7a95)
